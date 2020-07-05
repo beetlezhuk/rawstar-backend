@@ -1,0 +1,4 @@
+spring.jpa.hibernate.ddl-auto: create-drop
+spring.datasource.url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/rawStarDb?createDatabaseIfNotExist=true
+spring.datasource.username: root
+spring.datasource.password: my-secret-pw
